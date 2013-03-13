@@ -10,8 +10,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias sl=ls
 alias ls='ls -F -G'
-alias l='ls -lAh -G'
-alias ll='ls -l -G'
+alias l='ls -l -G'
+alias ll='ls -lAh -G'
 alias la='ls -A -G'
 alias lsd='ls -l -G | grep "^d"'
 
