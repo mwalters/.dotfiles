@@ -3,7 +3,7 @@ export NODE_PATH="/usr/local/bin/node_modules"
 
 alias reload='. ~/.bash_profile'
 
-if [ ! -f ~/mswdotfiles/.bash_private ];
+if [ -f ~/mswdotfiles/.bash_private ];
 then
     source ~/mswdotfiles/.bash_private.sh
 fi
