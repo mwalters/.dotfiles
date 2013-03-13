@@ -8,7 +8,6 @@ then
     source ~/mswdotfiles/.bash_private.sh
 fi
 
-source ~/mswdotfiles/completion/bash_completion.sh
 source ~/mswdotfiles/aliases.sh
 source ~/mswdotfiles/git/aliases.sh
 source ~/mswdotfiles/prompt.sh
