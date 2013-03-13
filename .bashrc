@@ -1,5 +1,5 @@
 export PATH=~/bin:$PATH
-export NODE_PATH="/usr/local/lib/node"
+export NODE_PATH="/usr/local/bin/node_modules"
 
 alias reload='. ~/.bash_profile'
 
