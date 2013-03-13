@@ -10,4 +10,5 @@ fi
 
 source ~/mswdotfiles/aliases.sh
 source ~/mswdotfiles/git/aliases.sh
+source ~/mswdotfiles/functions.sh
 source ~/mswdotfiles/prompt.sh
