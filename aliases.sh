@@ -4,6 +4,7 @@ alias o='subl'
 # Helpful aliases
 alias cp='cp -i'
 alias mv='mv -i'
+alias ln='ln -i'
 alias ~="cd ~"
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -14,6 +15,8 @@ alias l='ls -l -G'
 alias ll='ls -lAh -G'
 alias la='ls -A -G'
 alias lsd='ls -l -G | grep "^d"'
+alias grep='grep --color=auto'
+alias path='echo -e ${PATH//:/\\n}'
 
 # Flush DNS
 alias flushdns='dscacheutil -flushcache'

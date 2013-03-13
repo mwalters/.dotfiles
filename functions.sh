@@ -32,3 +32,9 @@ function server() {
 	local port="${1:-8080}"
 	python -m SimpleHTTPServer $port
 }
+
+
+# Get weather for a ZIP code
+weather() { 
+	curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-$1}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';
+}
