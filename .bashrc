@@ -1,4 +1,4 @@
-export PATH=~/bin:$PATH
+export PATH=~/bin:$PATH:/usr/local/share/npm/bin
 export NODE_PATH="/usr/local/bin/node_modules"
 
 alias reload='. ~/.bash_profile'

@@ -1,4 +1,4 @@
-mv ~/.bashrc ~/.bashrc-bak
-ln -s ~/mswdotfiles/.bashrc ~/.bashrc
-ln -s ~/mswdotfiles/.hushlogin ~/.hushlogin
-source ~/.bashrc
+mv $HOME/.bashrc ~/.bashrc-bak
+ln -s $HOME/mswdotfiles/.bashrc ~/.bashrc
+ln -s $HOME/mswdotfiles/.hushlogin ~/.hushlogin
+source $HOME/.bashrc
