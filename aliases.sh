@@ -9,7 +9,6 @@ alias ~="cd ~"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias sl=ls
 alias ls='ls -F -G'
 alias l='ls -l -G'
 alias ll='ls -lAh -G'
