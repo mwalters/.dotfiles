@@ -1,5 +1,6 @@
 export PATH=/usr/local/bin:~/bin:$PATH:/usr/local/share/npm/bin
 export NODE_PATH="/usr/local/bin/node_modules"
+export EDITOR="subl -w"
 
 alias reload='. ~/.bash_profile'
 
