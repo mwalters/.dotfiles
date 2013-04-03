@@ -1,1 +1,1 @@
-Just some helpful things for me to keep a consistent environment between computers
+Bash aliases, functions, prompt, etc.

@@ -1,6 +1,6 @@
 export PATH=/usr/local/bin:~/bin:$PATH:/usr/local/share/npm/bin
 
-alias reload='. ~/.bash_profile'
+alias reload='. ~/.bashrc'
 
 if [ -f ~/mswdotfiles/.bash_private ];
 then

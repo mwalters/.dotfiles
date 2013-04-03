@@ -1,14 +1,15 @@
 # Set editor of choice
 alias o='subl'
 
-# Helpful aliases
+# Make some commands safer
 alias cp='cp -i'
 alias mv='mv -i'
 alias ln='ln -i'
+
+# Helpful aliases
 alias ~="cd ~"
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ....='cd ../../..'
 alias ls='ls -F -G'
 alias l='ls -l -G'
 alias ll='ls -lAh -G'
