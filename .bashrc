@@ -2,13 +2,13 @@ export PATH=/usr/local/bin:~/bin:$PATH:/usr/local/share/npm/bin
 
 alias reload='. ~/.bashrc'
 
-if [ -f ~/mswdotfiles/.bash_private ];
+if [ -f ~/mswdotfiles/.bash_private.sh ];
 then
-    source ~/mswdotfiles/.bash_private.sh
+    . ~/mswdotfiles/.bash_private.sh
 fi
 
-source ~/mswdotfiles/aliases.sh
-source ~/mswdotfiles/git/aliases.sh
-source ~/mswdotfiles/functions.sh
-source ~/mswdotfiles/prompt.sh
-source ~/mswdotfiles/git/config.sh
+. ~/mswdotfiles/aliases.sh
+. ~/mswdotfiles/git/aliases.sh
+. ~/mswdotfiles/functions.sh
+. ~/mswdotfiles/git/config.sh
+. ~/mswdotfiles/prompt.sh
