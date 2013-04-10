@@ -1,0 +1,6 @@
+alias t='$HOME/mswdotfiles/todo/todo.sh'
+alias ta='t add'
+alias tarch='t archive'
+alias td='t do'
+alias tl='t list'
+alias tp='t pri'
