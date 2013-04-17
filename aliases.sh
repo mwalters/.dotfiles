@@ -33,7 +33,6 @@ alias bup='brew update && brew upgrade'
 alias bout='brew outdated'
 
 # Tree
-if [ ! -x "$(which tree 2>/dev/null)" ]
-then
-  alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'|more"
+if [ ! -x "$(which tree 2>/dev/null)" ]; then
+	alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'|more"
 fi
