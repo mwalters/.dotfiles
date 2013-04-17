@@ -1,19 +1,19 @@
 if [ -f $HOME/.bash_profile ]; then
     mv -i $HOME/.bash_profile $HOME/.bash_profile-bak
 fi
-ln -s $HOME/mswdotfiles/.bash_profile $HOME/.bash_profile
+ln -s $HOME/.dotfiles/.bash_profile $HOME/.bash_profile
 
 if [ -f $HOME/.bashrc ]; then
     mv -i $HOME/.bashrc $HOME/.bashrc-bak
 fi
-ln -s $HOME/mswdotfiles/.bashrc $HOME/.bashrc
+ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
 
 
-if [ -f $HOME/mswdotfiles/.hushlogin ]; then
+if [ -f $HOME/.hushlogin ]; then
     mv -i $HOME/.hushlogin $HOME/.hushlogin-bak
 fi
-ln -s $HOME/mswdotfiles/.hushlogin $HOME/.hushlogin
+ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 
-chmod +x $HOME/mswdotfiles/git-wtf
+chmod +x $HOME/.dotfiles/git/git-wtf
 
 . $HOME/.bashrc

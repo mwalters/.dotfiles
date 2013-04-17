@@ -1,4 +1,4 @@
-alias t='$HOME/mswdotfiles/todo/todo.sh -d $HOME/mswdotfiles/todo/todo.cfg'
+alias t='$HOME/.dotfiles/todo/todo.sh -d $HOME/mswdotfiles/todo/todo.cfg'
 alias ta='t add'
 alias td='t do'
 alias tl='echo && t list && echo'
