@@ -14,6 +14,11 @@ if [ -f $HOME/.hushlogin ]; then
 fi
 ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 
+if [ -f $HOME/.liquidpromptrc ]; then
+    mv -i $HOME/.liquidpromptrc $HOME/.liquidpromptrc-bak
+fi
+ln -s $HOME/.dotfiles/.liquidpromptrc $HOME/.liquidpromptrc
+
 chmod +x $HOME/.dotfiles/git/git-wtf
 
 . $HOME/.bashrc
