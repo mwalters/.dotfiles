@@ -17,6 +17,7 @@ alias la='ls -A -G'
 alias lsd='ls -l -G | grep "^d"'
 alias grep='grep --color=auto'
 alias path='echo -e ${PATH//:/\\n}'
+alias batt='pmset -g batt'
 
 # Flush DNS
 alias flushdns='dscacheutil -flushcache'
