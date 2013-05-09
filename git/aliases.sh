@@ -8,3 +8,4 @@ alias gco='git checkout'
 alias gd='git diff'
 alias gsq='git rebase -i'
 alias gwtf='$HOME/.dotfiles/git/git-wtf'
+alias gbcp="git rev-parse --abbrev-ref HEAD | tr -d '\n' | pbcopy"
