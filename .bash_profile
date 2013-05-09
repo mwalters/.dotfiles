@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:$HOME/bin:$PATH:/usr/local/share/npm/bin
+export PATH=/usr/local/bin:$HOME/bin:$PATH
 
 PATH=$(echo "$PATH" | awk -v RS=':' -v ORS=":" '!a[$1]++')
 
