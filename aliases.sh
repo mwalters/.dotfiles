@@ -19,8 +19,9 @@ alias grep='grep --color=auto'
 alias path='echo -e ${PATH//:/\\n}'
 alias batt='pmset -g batt'
 
-# iOS Simulator
+# Simple opening of some Apps
 alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias xcode="open /Applications/Xcode.app"
 
 # Copy public key to clipboard
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
