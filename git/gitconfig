@@ -3,3 +3,7 @@
 	outgoing = "!(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' @{u}..)"
 	info = "remote -v"
 	squash = "rebase -i"
+	who = "shortlog -n -s --no-merges"
+	cleanup = "!git remote prune origin && git gc && git clean -dfx && git stash clear"
+	alias = "!git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t = \\2/' | sort"
+	ignore = "!([ ! -e .gitignore ] && touch .gitignore) | echo $1 >>.gitignore"
