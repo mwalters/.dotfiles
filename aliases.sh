@@ -44,3 +44,6 @@ alias bout='brew outdated'
 if [ ! -x "$(which tree 2>/dev/null)" ]; then
 	alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'|more"
 fi
+
+# SpeedTest.net // easy_install speedtest-cli
+alias speedtest='speedtest-cli --simple'
