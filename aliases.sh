@@ -18,6 +18,7 @@ alias lsd='ls -l -G | grep "^d"'
 alias grep='grep --color=auto'
 alias path='echo -e ${PATH//:/\\n}'
 alias batt='pmset -g batt'
+alias updatetime='sudo ntpdate -u time.apple.com'
 
 # Simple opening of some Apps
 alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
