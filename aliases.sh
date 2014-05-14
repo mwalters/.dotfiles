@@ -7,7 +7,9 @@ alias mv='mv -i'
 alias ln='ln -i'
 
 # Helpful aliases
-alias ~="cd ~"
+alias sudo='sudo '
+alias _='sudo '
+alias ~='cd ~'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ls='ls -F -G'
