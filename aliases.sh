@@ -21,7 +21,6 @@ alias grep='grep --color=auto'
 alias path='echo -e ${PATH//:/\\n}'
 alias batt='pmset -g batt'
 alias updatetime='sudo ntpdate -u time.apple.com'
-alias composer='php composer.phar'
 
 # Simple opening of some Apps
 alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
