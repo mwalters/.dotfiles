@@ -1,8 +1,18 @@
+# Install Homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+# Install Cask
 brew tap phinze/cask
 brew install brew-cask
+
+# Install Alfred and hook up to Cask
 brew cask install alfred
 brew cask alfred link
 
+# Install helpers
+brew install legit
+
+# Install applications
 brew cask install bartender
 brew cask install divvy
 brew cask install caffeine
