@@ -6,6 +6,8 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ln='ln -i'
 
+alias t='trash'
+
 # Helpful aliases
 alias sudo='sudo '
 alias _='sudo '
