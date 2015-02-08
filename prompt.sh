@@ -1,5 +1,5 @@
-source /usr/local/Cellar/git/2.1.2/etc/bash_completion.d/git-completion.bash
-source /usr/local/Cellar/git/2.1.2/etc/bash_completion.d/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='[\w$(__git_ps1)] > '
 export PROMPT_COMMAND=__prompt_command  # Func to gen PS1 after CMDs
