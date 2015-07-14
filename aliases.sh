@@ -33,7 +33,7 @@ alias xcode="open /Applications/Xcode.app"
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 # Flush DNS
-alias flushdns='sudo discoveryutil mdnsflushcache;sudo discoveryutil udnsflushcaches;echo DNS Flushed'
+alias flushdns='sudo dscacheutil -flushcache'
 alias dnsflush='flushdns'
 
 # Remove .DS_Store files recursively
