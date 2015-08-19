@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:$HOME/bin:$PATH
+export PATH=/usr/local/bin:$HOME/bin:$HOME/bin/packer:$PATH
 
 # PATH=$(echo "$PATH" | awk -v RS=':' -v ORS=":" '!a[$1]++')
 
